@@ -364,6 +364,8 @@ var calendar = {
     }
 };
 
+var date = new Date();
+date.setTime(1519608510000);
 
 function getSXList(date) {
 	 var lunar = calendar.solar2lunar(date.getFullYear(),date.getMonth()+1,date.getDate());
